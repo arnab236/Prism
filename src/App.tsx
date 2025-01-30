@@ -3,7 +3,7 @@ import { PlusCircle, Search } from 'lucide-react';
 import { StartupCard } from './components/StartupCard';
 import { StartupForm } from './components/StartupForm';
 import { Startup } from './types/startup';
-
+import {Logo} from '../dist/assets/prismLogo.png'
 const PLACEHOLDER_STARTUP: Startup = {
   id: 'placeholder',
   name: 'Your Startup Name',
@@ -58,7 +58,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex justify-between items-center">
             <div className='flex'>
-              <img src='../dist/assets/prismLogo.png' alt='Prism' className='h-10 w-10'/>
+              <img src={Logo} alt='Prism' className='h-10 w-10'/>
               <h1 className="text-2xl font-bold text-gray-900 py-1">Prism</h1>
             </div>
             <button
