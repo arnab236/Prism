@@ -58,7 +58,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex justify-between items-center">
             <div className='flex'>
-              <div className="w-10 h-10 bg-[url(../dist/assets/prismLogo.png)]"></div>
+              <img src={Logo} alt="Prism" className="w-10 h-10"/>
               <h1 className="text-2xl font-bold text-gray-900 py-1">Prism</h1>
             </div>
             <button
