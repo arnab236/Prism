@@ -3,7 +3,7 @@ import { PlusCircle, Search } from 'lucide-react';
 import { StartupCard } from './components/StartupCard';
 import { StartupForm } from './components/StartupForm';
 import { Startup } from './types/startup';
-import {Logo} from '../dist/assets/prismLogo.png'
+import Logo from '../dist/assets/prismLogo.png'
 const PLACEHOLDER_STARTUP: Startup = {
   id: 'placeholder',
   name: 'Your Startup Name',
